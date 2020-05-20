@@ -1,5 +1,6 @@
-Simpliest and easiest way to send a packet thru local or any network.
-Open up scapy and make sure to indicate IP destination 
-send(IP(src="IP DESTINATION xxx.xxx.x.x",dst="IP DESTINATION xxx.xxx.x.x")/ICMP()/"The world is yours")
-Run code thru scapy
-Open up wireshark and scan the network indicated above to see indicated words displayed 
+Simpliest and easiest way to send a packet throught local or global network.
+Open up python and install scapy with pip or sudo. pip install https://github.com/secdev/scapy sudo clone https://github.com/secdev/scapy
+Once you got scapy isntalled just type in scapy in python, after that all you need to do is type in following code, filling in IP addresses source and destination
+send(IP(src=""xxx.xxx.x.x",dst="xxx.xxx.x.x")/ICMP()/"The world is yours")
+Run code 
+Open up wireshark and scan the network indicated above to see indicated word(s) displayed 
